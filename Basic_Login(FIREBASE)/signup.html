@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> WebDev </title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="img/js.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<!-- Links to other pages -->
+
+<body>
+  <nav>
+    <div class="logo"> LOGIN/SIGNUP PAGE </div>
+    <h1 id="hh"> &nbsp; </h1>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+
+      <li><a id="userlink" href="">User</a></li>
+      <li><a id ="signout" href="">Signout</a></li>
+    </ul>
+    <div class="icon">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                </div>
+                <h1 id="hh"> &nbsp; </h1>
+                <div id="login" class="input-group" >
+                   <input type="text" id="em2" class="input-field" placeholder="username" required>
+                   <input type="password" id="pass2" class="input-field" placeholder="password" required>
+                   <input type="checkbox" id="kli" class="check-box"><span>Keep me signed in</span>
+                   <button type="text" class="submit-btn" id="submit2">Login</button>
+                </div>
+                <h1 id="hh"> &nbsp; </h1>
+                <div id="signup" class="input-group" >
+                    <input type="text" id="fn1" class="input-field" placeholder="first name" required>
+                    <input type="text" id="ln1" class="input-field" placeholder="last name" required>
+                    <input type="text" id="un1" class="input-field" placeholder="username" required>
+                    <input type="text" id="em1" class="input-field" placeholder="email" required>
+                    <input type="password" id="pass1" class="input-field" placeholder="password" required>
+                    <input type="checkbox" id="myCheck" class="check-box" required><span>I agree to the terms & conditions</span>
+                    <button type="text" id="submit1" class="submit-btn">Signup</button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="gBox">
+            <canvas id="canvas1"></canvas>
+        </div>
+        <script src="js/particles.js"></script>
+        <script src="js/user.js"></script>
+        <script src="js/app.js"></script>
+        <script type="module" src="js/firebase.js"></script> 
+    </body>
+</html>
